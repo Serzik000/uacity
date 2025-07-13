@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="696a8e6d-4fb5-41f7-bedd-2d8c2204b8e9" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2vtY7GkuMfiLDeOHmKDUQTbDOLS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web\uacity\uacity\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" uri="http://localhost:63342/uacity/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" uri="http://localhost:63342/escoffier_guide/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="696a8e6d-4fb5-41f7-bedd-2d8c2204b8e9" name="Changes" comment="" />
+      <created>1744965668643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744965668643</updated>
+      <workItem from="1744965670435" duration="10145000" />
+      <workItem from="1745051382866" duration="33379000" />
+      <workItem from="1745216281983" duration="123000" />
+      <workItem from="1745235072452" duration="2807000" />
+      <workItem from="1745311772725" duration="1570000" />
+      <workItem from="1751979960421" duration="6059000" />
+      <workItem from="1752047217896" duration="4585000" />
+      <workItem from="1752223178130" duration="15458000" />
+      <workItem from="1752309737481" duration="8276000" />
+      <workItem from="1752326307144" duration="8263000" />
+      <workItem from="1752391827030" duration="6125000" />
+      <workItem from="1752404070168" duration="10358000" />
+      <workItem from="1752420788165" duration="1194000" />
+      <workItem from="1752423110976" duration="444000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
