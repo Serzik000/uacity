@@ -50,7 +50,7 @@
                 <a href="">
                     <div><p>Про компанію</p></div>
                 </a>
-                <a href="">
+                <a href="tariffs">
                     <div><p>Тарифи</p></div>
                 </a>
                 <a href="">
@@ -80,7 +80,7 @@
                     <button onclick="document.querySelector('.order_form_container').style.display='flex'">Підключитись</button>
                 </div>
                 <div class="carousel_item_img_container">
-                    <img src="img/filler3.png" class="carousel_item_img">
+                    <img src="img/filler4.png" class="carousel_item_img" alt="">
                 </div>
             </div>
             <div class="carousel_item">
@@ -90,25 +90,198 @@
                     <button onclick="document.querySelector('.order_form_container').style.display='flex'">Підключитись</button>
                 </div>
                 <div class="carousel_item_img_container">
-                    <img src="img/filler2.png" class="carousel_item_img">
+                    <img src="img/filler2.png" class="carousel_item_img" alt="">
                 </div>
             </div>
             <div class="carousel_item">
                 <div class="carousel_item_text_container">
                     <h2>Будівництво та обслуговування</h2>
-                    <p>Маючи великий досвід у прокладанні комунікаційних ліній зв'язку, ми пропонуємо послуги з будівництва підземних та наземних оптико-волоконних ліній.</p>
-                    <button onclick="document.querySelector('.order_form_container').style.display='flex'">Підключитись</button>
+                    <p>Маючи великий досвід у прокладанні комунікаційних ліній зв'язку, ми пропонуємо послуги з
+                        будівництва підземних та наземних оптико-волоконних ліній.</p>
+                    <button onclick="document.querySelector('.order_form_container').style.display='flex'">
+                        Підключитись
+                    </button>
                 </div>
                 <div class="carousel_item_img_container">
-                    <img src="img/filler1.png" class="carousel_item_img">
+                    <img src="img/filler1.png" class="carousel_item_img"alt="">
                 </div>
             </div>
         </div>
         <button class="arrow right">></button>
     </div>
-
+    <div class="tariffs">
+        <h1>Тарифи для дому</h1>
+        <div class="tariff_city_choice">
+            <input type="radio" name="rb" id="nizhyn" checked/>
+            <label for="nizhyn">Ніжин</label>
+            <input type="radio" name="rb" id="nosivka"/>
+            <label for="nosivka">Носівка</label>
+            <input type="radio" name="rb" id="shostka"/>
+            <label for="shostka">Шостка</label>
+        </div>
+        <div class="tariffs_container" id="tariffs_nizhyn">
+            <div class="tariff">
+                <div class="tariff_img_container">
+                    <h2>1 Gig Home</h2>
+                    <img src="img/tariff1gig.png">
+                </div>
+                <div class="tariff_text_container">
+                    <div class="price">
+                        <div class="price_container"><h2>₴175</h2><p>/міс.</p></div>
+                        <p class="price_note">*після 5 місяця 350/міс</p>
+                    </div>
+                    <p class="tariff_note">Легкий гігабітний інтернет преміум класу</p>
+                    <div class="tariff_connection_type">
+                        <p>Підключення:</p>
+                        <p class="tariff_connection_type_xgspon">XGSPON</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
+                    <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
+                </div>
+            </div>
+            <div class="tariff">
+                <div class="tariff_img_container">
+                    <h2>3 Gig Family</h2>
+                    <img src="img/tariff3gig.png">
+                </div>
+                <div class="tariff_text_container">
+                    <div class="price">
+                        <div class="price_container"><h2>₴700</h2>
+                            <p>/міс.</p>
+                            <p class="tariff_area_note">*окремі райони</p></div>
+                    </div>
+                    <p class="tariff_note">Ідеальний варіант, коли всі працюють, навчаються та розважаються вдома</p>
+                   <div class="tariff_connection_type">
+                        <p>Підключення:</p>
+                        <p class="tariff_connection_type_xgspon">XGSPON</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
+                    <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
+                </div>
+            </div>
+            <div class="tariff">
+                <div class="tariff_img_container">
+                    <h2>5 Gig Edge</h2>
+                    <img src="img/tariff5gig.png">
+                </div>
+                <div class="tariff_text_container">
+                    <div class="price">
+                        <div class="price_container"><h2>₴1400</h2>
+                            <p>/міс.</p>
+                            <p class="tariff_area_note">*окремі райони</p>
+                        </div>
+                    </div>
+                    <p class="tariff_note">Створений для тих хто готовий до майбутнього</p>
+                    <div class="tariff_connection_type">
+                        <p>Підключення:</p>
+                        <p class="tariff_connection_type_xgspon">XGSPON</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
+                    <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
+                </div>
+            </div>
+        </div>
+        <div class="tariffs_container" id="tariffs_nosivka" style="display: none">
+            <div class="tariff">
+                <div class="tariff_img_container">
+                    <h2>Fiber 500</h2>
+                    <img src="img/tariff1gig.png">
+                </div>
+                <div class="tariff_text_container">
+                    <div class="price">
+                        <div class="price_container"><h2>₴175</h2><p>/міс.</p></div>
+                        <p class="price_note">*після 5 місяця 350/міс</p>
+                    </div>
+                    <p class="tariff_note">Надійний інтернет до 500 Мбіт/с</p>
+                    <div class="tariff_connection_type">
+                        <p>Підключення:</p>
+                        <p class="tariff_connection_type_gpon">GPON</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
+                    <a class="tariff_button" >Детальніше</a>
+                </div>
+            </div>
+            <div class="tariff">
+                <div class="tariff_img_container">
+                    <h2>Fiber 1000</h2>
+                    <img src="img/tariff3gig.png">
+                </div>
+                <div class="tariff_text_container">
+                    <div class="price">
+                        <div class="price_container"><h2>₴250</h2><p>/міс.</p></div>
+                        <p class="price_note">*після 5 місяця 500/міс</p>
+                    </div>
+                    <p class="tariff_note">Легкий гігабітний інтернет преміум класу</p>
+                    <div class="tariff_connection_type">
+                        <p>Підключення:</p>
+                        <p class="tariff_connection_type_gpon">GPON</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
+                    <a class="tariff_button">Детальніше</a>
+                </div>
+            </div>
+        </div>
+        <div class="tariffs_container" id="tariffs_shostka" style="display: none">
+            <div class="tariff">
+                <div class="tariff_img_container">
+                    <h2>F 100</h2>
+                    <img src="img/tariff1gig.png">
+                </div>
+                <div class="tariff_text_container">
+                    <div class="price">
+                        <div class="price_container"><h2>₴150</h2><p>/міс.</p></div>
+                        <p class="price_note">*після 5 місяця 300/міс</p>
+                    </div>
+                    <p class="tariff_note">Надійний інтернет до 100 Мбіт/с</p>
+                    <div class="tariff_connection_type">
+                        <p>Підключення:</p>
+                        <p class="tariff_connection_type_fftb">FFTB</p>
+                    </div>
+                    <a class="tariff_button">Детальніше</a>
+                </div>
+            </div>
+            <div class="tariff">
+                <div class="tariff_img_container">
+                    <h2>F 500</h2>
+                    <img src="img/tariff3gig.png">
+                </div>
+                <div class="tariff_text_container">
+                    <div class="price">
+                        <div class="price_container"><h2>₴175</h2><p>/міс.</p></div>
+                        <p class="price_note">*після 5 місяця 350/міс</p>
+                    </div>
+                    <p class="tariff_note">Надійний інтернет до 500 Мбіт/с</p>
+                    <div class="tariff_connection_type">
+                        <p>Підключення:</p>
+                        <p class="tariff_connection_type_gpon">GPON</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
+                    <a class="tariff_button">Детальніше</a>
+                </div>
+            </div>
+            <div class="tariff">
+                <div class="tariff_img_container">
+                    <h2>F 1000</h2>
+                    <img src="img/tariff5gig.png">
+                </div>
+                <div class="tariff_text_container">
+                    <div class="price">
+                        <div class="price_container"><h2>₴250</h2><p>/міс.</p></div>
+                        <p class="price_note">*після 5 місяця 500/міс</p>
+                    </div>
+                    <p class="tariff_note">Легкий гігабітний інтернет преміум класу</p>
+                    <div class="tariff_connection_type">
+                        <p>Підключення:</p>
+                        <p class="tariff_connection_type_gpon">GPON</p>
+                    </div>
+                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
+                    <a class="tariff_button">Детальніше</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="order_form_container" style="display: none">
+        <div class="order_form_container" style="display: none">
     <div class="order_form_exit">
         <button onclick="document.querySelector('.order_form_container').style.display='none'">✖</button>
     </div>
@@ -196,37 +369,22 @@
         </form>
     </div>
 </div>
-<div class="payment">
-    <div class="payment_container" style="display: block">
-        <h1>Способи оплати</h1>
-        <div class="payment_method">
+<script>
+    document.querySelectorAll('input[name="rb"]').forEach(function(radio) {
+        radio.addEventListener('change', function() {
+            const cities = ['nizhyn', 'nosivka', 'shostka'];
 
-            <a class="payment_method_img_container" href="https://next.privat24.ua/payments/form/%7B%22token%22%3A%22558f670a-9cde-49b6-8e3e-fb8ab9aabdd6%22%7D">
-                <img src="img/privat.png">
-            </a>
-            <div class="payment_method_text">
-                <h2>Приватбанк</h2>
-                <p>комісія банку</p>
-                <p>Сервіс Приват 24 – це сучасна Інтернет-платформа для здійснення грошових переказів та онлайн-платежів. Платити через “Приват 24” зручно, економно, швидко та безпечно!</p>
-                <a href="https://next.privat24.ua/payments/form/%7B%22token%22%3A%22558f670a-9cde-49b6-8e3e-fb8ab9aabdd6%22%7D" class="payment_button">Оплатити</a>
-            </div>
-        </div>
-        <div class="payment_method" >
-
-            <a class="payment_method_img_container" href="https://www.ipay.ua/ru/bills/uacity">
-                <img src="img/ipay.png">
-            </a>
-            <div class="payment_method_text">
-                <h2>iPay</h2>
-                <p>без комісії</p>
-                <p>Сервіс iPay.ua – це сучасна Інтернет-платформа для здійснення грошових переказів та онлайн-платежів. Платити через "iPay" зручно, економно, швидко та безпечно!</p>
-                <a href="https://www.ipay.ua/ru/bills/uacity" class="payment_button">Оплатити</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
+            cities.forEach(function(city) {
+                const block = document.getElementById('tariffs_' + city);
+                if (radio.id === city) {
+                    block.style.display = 'flex';
+                } else {
+                    block.style.display = 'none';
+                }
+            });
+        });
+    });
+</script>
 <script>
     let lastScroll = 0;
     const header = document.querySelector('.sticky-header');

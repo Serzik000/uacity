@@ -34,6 +34,18 @@ body {
     font-family: "Montserrat Bold";
     src: url('fonts/Montserrat-Bold.ttf');
 }
+@font-face {
+    font-family: "Montserrat Medium";
+    src: url('fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: "Montserrat Regular";
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+    font-family: "Montserrat Semibold";
+    src: url('fonts/Montserrat-SemiBold.ttf');
+}
 a{
     text-decoration: none; !important;
 }
@@ -210,6 +222,7 @@ a{
     margin: auto;
     user-select: none;
     height: 600px;
+    margin-bottom: 50px;
 }
 
 .carousel {
@@ -250,7 +263,7 @@ a{
     height: 70%;
     margin-top: auto;
     margin-bottom: auto;
-    font-family: "Montserrat Bold";
+    font-family: "Montserrat Semibold";
     margin-right: 150px;
     display: flex;
     justify-content: center;
@@ -454,20 +467,29 @@ a{
 .payment{
     width: 100%;
     min-height: 100vh;
-    margin-top: 140px;
+    margin-top: 190px;
     z-index: 2;
+}
+.payment p{
+    text-align: justify;
+}
+.payment h1{
+    margin-bottom: 20px;
 }
 .payment_container{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    font-family: "Montserrat Bold";
+    font-family: "Montserrat Semibold";
+
 }
 .payment_method{
-    display: inline-flex;
-    width: 1200px;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: fit-content;
     align-items: center;
+    margin-top: 25px;
 }
 .payment_method_img_container{
     overflow: hidden;
@@ -493,9 +515,13 @@ a{
     object-fit: contain;
 }
 .payment_method_text{
-    width: 800px;
+    width: 250px;
+    height: 250px;
     padding-left: 50px;
     padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .payment_button{
     font-family: "Montserrat Bold";
@@ -517,4 +543,259 @@ a{
     background: #42a741;
     cursor: pointer;
     transition-duration: 0.1s;
+}
+.payment_method_commission_orange {
+    border: 1px solid #fc8c1a;
+    border-radius: 100px;
+    padding: 0 5px;
+    margin-top: 0;
+    margin-bottom: auto;
+    color: #fc8c1a;
+    font-size: 11px;
+    width: fit-content;
+}
+.payment_method_text h2{
+    margin-bottom: 0;
+}
+.payment_method_commission_green{
+    border: 1px solid #42a741;
+    border-radius: 100px;
+    padding: 0 5px;
+    margin-top: 0;
+    margin-bottom: auto;
+    color: #42a741;
+    font-size: 10px;
+    width: fit-content;
+}
+.payment_method_container{
+    display: flex;
+}
+.tariffs{
+    width: 100%;
+    min-height: 90vh;
+    z-index: 2;
+    margin-bottom: 150px;
+    box-shadow: #fdfdfd inset 0 0 10000px 1000px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.tariffs p{
+    text-align: justify;
+}
+.tariffs h1{
+    margin-bottom: 20px;
+}
+.tariffs_container{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat Semibold";
+    display: flex;
+    flex: 0 0 1;
+
+}
+.tariff{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: fit-content;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.47) 0 0 2px;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}
+.tariff:hover{
+    box-shadow: rgba(0, 0, 0, 0.47) 2px 2px 5px 2px;
+    transition-duration: 0.2s;
+}
+.tariff_img_container{
+    overflow: hidden;
+    position: relative;
+    height: 380px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0);
+}
+.tariff_img_container h2{
+    height: 80px;
+    font-size: 35px;
+    align-content: center;
+    margin: 0;
+}
+.tariff_img_container img{
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    height: 300px;
+    object-fit: cover;
+}
+.tariff_text_container{
+    width: 250px;
+    height: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.tariff_button{
+    font-family: "Montserrat Bold", serif;
+    width: 210px;
+    background: #42a741;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    transition-duration: 0.1s;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.tariff_button:hover {
+    color: #ffffff;
+    background: #2f792f;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+.tariff_text_container h2{
+    margin-bottom: 0;
+}
+.tariff_container{
+    display: flex;
+}
+
+
+.tariff_city_choice input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.tariff_city_choice {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    border: #42a741 solid 3px;
+    border-radius: 5px;
+    margin-left: 15%;
+}
+
+.tariff_city_choice label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: "Montserrat Bold";
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.25, 0.25, 0.5, 1.9);
+}
+
+.tariff_city_choice input:checked + label {
+    background: #42a741;
+    color: #ffffff;
+}
+.tariffs h1{
+    font-size: 35px;
+    font-family: "Montserrat Bold";
+    margin-left: 15%;
+    margin-bottom: 25px;
+}
+.price{
+    height: 80px;
+}
+.price_container p{
+    margin-bottom: 0;
+}
+.price_container h2{
+    font-size: 35px;
+    margin-top: 7px;
+}
+.price_container{
+    display: flex;
+    align-items: baseline;
+    height: min-content;
+}
+.price_note{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fc1a1a;
+    font-size: 14px;
+}
+.tariff_note{
+    border-top: #42a741 solid 2px;
+    border-bottom: #42a741 solid 2px;
+    margin-top: 0;
+    padding: 5px 0;
+    height: 60px;
+    width: 100%;
+    align-content: center;
+}
+.tariff_area_note{
+    margin-top: 0;
+    margin-left: auto;
+    overflow: hidden;
+    flex: 1;
+    align-self: stretch;
+    font-size: 12px;
+    padding-top: 5px;
+
+}
+.tariffs p.tariff_area_note{
+    text-align: justify;
+    text-align: right;!important;
+}
+.tariff_connection_type{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+
+}
+.tariff_connection_type p{
+    font-size: 12px;
+    margin: 0;
+}
+.tariff_connection_type_xgspon{
+    background: #488ddc;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin: 0;
+
+}
+.tariff_connection_type_gpon{
+    background: white;
+    color: #42a741;
+    border: 2px solid #42a741;
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin: 0;
+
+}
+.tariff_connection_type_fftb{
+    background: #d27c19;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 15px;
+    margin: 0;
+
+}
+.tariff_reserv{
+    font-size: 12px;
+    margin-top: 5px;
 }
