@@ -854,3 +854,23 @@ a{
     font-size: 12px;
     margin-top: 5px;
 }
+.tariff_text_container ul{
+    align-content: center;
+    padding: 0;
+    font-size: 15px;
+    font-family: "Montserrat Semibold";
+}
+.tariff_text_container li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    height: min-content;
+}
+.tariff_text_container li p{
+    margin: 0;
+}
+.tariff_text_container li:before {
+    content: "✔";
+    padding-right: 5px;
+}
