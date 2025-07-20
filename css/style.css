@@ -744,7 +744,7 @@ a{
 }
 .tariffs h1{
     font-size: 35px;
-    font-family: "Montserrat Bold";
+    font-family: "Montserrat Semibold";
     margin-left: 15%;
     margin-bottom: 25px;
 }
@@ -924,7 +924,7 @@ marquee{
 .contacts_general {
     border-radius: 10px;
     padding: 20px 0;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 .contacts_container svg{
     width: 35px;
@@ -973,9 +973,9 @@ marquee{
     justify-content: space-between;
 }
 .contacts_general h1 {
-    margin-top: 0;
-    font-size: 40px;
-    margin-bottom: 40px;
+    font-size: 35px;
+    font-family: "Montserrat Semibold";
+    margin-bottom: 0;
 }
 
 .contacts_general a {
@@ -1007,7 +1007,7 @@ marquee{
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     font-size: 18px;
-    font-family: "Montserrat Semibold";
+    font-family: "Montserrat Regular";
 }
 
 .contacts_button:hover {
@@ -1028,6 +1028,7 @@ marquee{
     padding: 25px 30px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     transition: opacity 0.3s ease-in-out;
+    width: max-content;
 }
 
 .contacts_office.active {
@@ -1041,15 +1042,42 @@ marquee{
 }
 
 .contacts_map {
-    width: 100%;
-    height: 300px;
+    width: 1150px;
+    height: 500px;
     margin-top: 20px;
     border: none;
     border-radius: 8px;
 }
-
-@media (max-width: 600px) {
-    .contacts_selector {
-        flex-direction: column;
-    }
+.tariffs_alert{
+    width: 70%;
+    background-color: #ffeae2;
+    color: #ff5900;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.33) 0 0 3px 0;
+    font-family: "Montserrat Medium";
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-top: 150px;
+}
+.tariffs_alert_date{
+    margin-left: auto;
+    width: max-content;
+}
+.tariffs_alert h2{
+    margin-top: 0;
+}
+.tariffs_alert button{
+    border: none;
+    background: none;
+    color: #ff5900;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 0 0 auto;
+    transition-duration: 0.2s;
+    display: block;
+}
+.tariffs_alert button:hover{
+    color: #883001;
+    transform: scale(1.05);
 }
