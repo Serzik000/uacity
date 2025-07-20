@@ -5,13 +5,13 @@ body {
     overflow-x: hidden;
     width: 100vw;
 }
-.h1{
+h1{
     font-weight: normal;
 }
-.h2{
+h2{
     font-weight: normal;
 }
-.h3{
+h3{
     font-weight: normal;
 }
 ::-webkit-scrollbar {
