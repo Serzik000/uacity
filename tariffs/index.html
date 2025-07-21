@@ -70,7 +70,7 @@
   </nav>
 </header>
 <div class="main_page">
-  <div class="tariffs_alert">
+  <div class="tariffs_alert" style="display: block">
     <button onclick="document.querySelector('.tariffs_alert').style.display='none'">✖</button>
     <h2>
       <strong>Увага! Зміна тарифних планів з 1 червня 2025 року</strong>
@@ -108,68 +108,90 @@
       <input type="radio" name="rb" id="shostka"/>
       <label for="shostka">Шостка</label>
     </div>
-    <div class="tariffs_container" id="tariffs_nizhyn">
-      <div class="tariff">
-        <div class="tariff_img_container">
-          <h2>1 Gig Home</h2>
-          <img src="../img/tariff1gig.png">
-        </div>
-        <div class="tariff_text_container">
-          <div class="price">
-            <div class="price_container"><h2>₴175</h2><p>/міс.</p></div>
-            <p class="price_note">*після 5 місяця 350/міс</p>
+    <div id="tariffs_nizhyn">
+      <div class="tariffs_container">
+        <div class="tariff">
+          <div class="tariff_img_container">
+            <h2>1 Gig Home</h2>
+            <img src="../img/tariff1gig.png">
           </div>
-          <p class="tariff_note">Легкий гігабітний інтернет преміум класу</p>
-          <div class="tariff_connection_type">
-            <p>Підключення:</p>
-            <p class="tariff_connection_type_xgspon">XGSPON</p>
-          </div>
-          <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
-          <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
-        </div>
-      </div>
-      <div class="tariff">
-        <div class="tariff_img_container">
-          <h2>3 Gig Family</h2>
-          <img src="../img/tariff3gig.png">
-        </div>
-        <div class="tariff_text_container">
-          <div class="price">
-            <div class="price_container"><h2>₴700</h2>
-              <p>/міс.</p>
-              <p class="tariff_area_note">*окремі райони</p></div>
-          </div>
-          <p class="tariff_note">Ідеальний варіант, коли всі працюють, навчаються та розважаються вдома</p>
-          <div class="tariff_connection_type">
-            <p>Підключення:</p>
-            <p class="tariff_connection_type_xgspon">XGSPON</p>
-          </div>
-          <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
-          <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
-        </div>
-      </div>
-      <div class="tariff">
-        <div class="tariff_img_container">
-          <h2>5 Gig Edge</h2>
-          <img src="../img/tariff5gig.png">
-        </div>
-        <div class="tariff_text_container">
-          <div class="price">
-            <div class="price_container"><h2>₴1400</h2>
-              <p>/міс.</p>
-              <p class="tariff_area_note">*окремі райони</p>
+          <div class="tariff_text_container">
+            <div class="price">
+              <div class="price_container"><h2>₴175</h2>
+                <p>/міс.</p></div>
+              <p class="price_note">*після 5 місяця 350/міс</p>
             </div>
+            <p class="tariff_note">Легкий гігабітний інтернет преміум класу</p>
+            <div class="tariff_connection_type">
+              <p>Підключення:</p>
+              <p class="tariff_connection_type_xgspon">XGSPON</p>
+            </div>
+            <div style="display: flex; justify-content: space-between"><p class="tariff_reserv">Резервне живлення до 72
+              годин</p>
+              <p class="tariff_reserv">✅</p></div>
+            <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
           </div>
-          <p class="tariff_note">Створений для тих хто готовий до майбутнього</p>
-          <div class="tariff_connection_type">
-            <p>Підключення:</p>
-            <p class="tariff_connection_type_xgspon">XGSPON</p>
+        </div>
+        <div class="tariff">
+          <div class="tariff_img_container">
+            <h2>3 Gig Family</h2>
+            <img src="../img/tariff3gig.png">
           </div>
-          <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
-          <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
+          <div class="tariff_text_container">
+            <div class="price">
+              <div class="price_container"><h2>₴700</h2>
+                <p>/міс.</p>
+                <p class="tariff_area_note">*окремі райони</p></div>
+            </div>
+            <p class="tariff_note">Ідеальний варіант, коли всі працюють, навчаються та розважаються вдома</p>
+            <div class="tariff_connection_type">
+              <p>Підключення:</p>
+              <p class="tariff_connection_type_xgspon">XGSPON</p>
+            </div>
+            <div style="display: flex; justify-content: space-between"><p class="tariff_reserv">Резервне живлення до 72
+              годин</p>
+              <p class="tariff_reserv">✅</p></div>
+            <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
+          </div>
+        </div>
+        <div class="tariff">
+          <div class="tariff_img_container">
+            <h2>5 Gig Edge</h2>
+            <img src="../img/tariff5gig.png">
+          </div>
+          <div class="tariff_text_container">
+            <div class="price">
+              <div class="price_container"><h2>₴1400</h2>
+                <p>/міс.</p>
+                <p class="tariff_area_note">*окремі райони</p>
+              </div>
+            </div>
+            <p class="tariff_note">Створений для тих хто готовий до майбутнього</p>
+            <div class="tariff_connection_type">
+              <p>Підключення:</p>
+              <p class="tariff_connection_type_xgspon">XGSPON</p>
+            </div>
+            <div style="display: flex; justify-content: space-between"><p class="tariff_reserv">Резервне живлення до 72
+              годин</p>
+              <p class="tariff_reserv">✅</p></div>
+            <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
+          </div>
         </div>
       </div>
+      <p class="tariffs_addition_first tariffs_addition">Мережа Uacity в Ніжині побудована по технології XGS-PON</p>
+      <p class="tariffs_addition">Це дозволяє забезпечувати послугою під час відключень електроенергії більше 72 годин.</p>
+      <p class="tariffs_addition">Якщо у вас є заряджений ноутбук/планшет/телефон та вам потрібен лише інтернет з Wi-Fi, достатньо мати
+        безперебійник, до якого
+        потрібно під’єднати роутер та оптичний модем.</p>
+      <p class="tariffs_addition"><strong>ПІДКЛЮЧЕННЯ БЕЗКОШТОВНО</strong>  – при умові оплати послуг за 2 місяці.</p>
+      <p class="tariffs_addition"><strong>БЕЗКОШТОВНО ПРИСТРОЇ WI-FI 6</strong> - при оплаті послуг за 24 місяці.</p>
+      <p class="tariffs_addition"><strong>30 ДЕННИЙ ПРОБНИЙ ПЕРІОД</strong> – надаємо 30 денний пробний період. Якщо абонент
+        відмовляється протягом 30 днів з моменту активації послуги, скасовуються і повертаються всі платежі.</p>
+      <p class="tariffs_addition"><strong>СТАБІЛЬНІСТЬ ЦІНИ</strong> - при оплаті по акційній пропозиції за 1 чи 2 роки ми
+        гарантуємо незмінність вартості тарифу протягом  оплаченого періоду.</p>
+
     </div>
+
     <div class="tariffs_container" id="tariffs_nosivka" style="display: none">
       <div class="tariff">
         <div class="tariff_img_container">
@@ -190,7 +212,7 @@
           <div style="display: flex; justify-content: space-between"><p class="tariff_reserv">Резервне живлення до 72
             годин</p>
             <p class="tariff_reserv">✅</p></div>
-          <a class="tariff_button">Детальніше</a>
+          <a class="tariff_button" href="https://uacity.net/aam/p2025nn.pdf">Детальніше</a>
         </div>
       </div>
       <div class="tariff">
@@ -212,7 +234,7 @@
           <div style="display: flex; justify-content: space-between"><p class="tariff_reserv">Резервне живлення до 72
             годин</p>
             <p class="tariff_reserv">✅</p></div>
-          <a class="tariff_button">Детальніше</a>
+          <a class="tariff_button" href="https://uacity.net/aam/p2025nn.pdf">Детальніше</a>
         </div>
       </div>
     </div>
@@ -233,7 +255,7 @@
             <p>Підключення:</p>
             <p class="tariff_connection_type_fftb">FFTB</p>
           </div>
-          <a class="tariff_button">Детальніше</a>
+          <a class="tariff_button" href="https://uacity.net/aam/f2025nn.pdf">Детальніше</a>
         </div>
       </div>
       <div class="tariff">
@@ -255,7 +277,7 @@
           <div style="display: flex; justify-content: space-between"><p class="tariff_reserv">Резервне живлення до 72
             годин</p>
             <p class="tariff_reserv">✅</p></div>
-          <a class="tariff_button">Детальніше</a>
+          <a class="tariff_button" href="https://uacity.net/aam/f2025nn.pdf">Детальніше</a>
         </div>
       </div>
       <div class="tariff">
@@ -277,7 +299,7 @@
           <div style="display: flex; justify-content: space-between"><p class="tariff_reserv">Резервне живлення до 72
             годин</p>
             <p class="tariff_reserv">✅</p></div>
-          <a class="tariff_button">Детальніше</a>
+          <a class="tariff_button" href="https://uacity.net/aam/f2025nn.pdf">Детальніше</a>
         </div>
       </div>
     </div>

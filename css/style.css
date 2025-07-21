@@ -584,7 +584,7 @@ a{
     margin-bottom: 0;
     box-shadow: rgba(255, 255, 255, 0) inset 0 0 10000px 1000px;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
 }
 .tariffs p{
     text-align: justify;
@@ -749,7 +749,7 @@ a{
     margin-bottom: 25px;
 }
 .price{
-    height: 80px;
+    height: 75px;
 }
 .price_container p{
     margin-bottom: 0;
@@ -794,14 +794,36 @@ a{
     color: #fc1a1a;
     font-size: 14px;
 }
+#tariffs_nizhyn{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tariffs_addition{
+    width: 1000px;
+    text-align: justify;
+    margin: 10px auto 0 auto;
+    font-family: "Montserrat Medium";
+    font-size: 16px;
+}
+.tariffs_addition_first{
+    margin: 50px auto 0 auto;!important;
+}
 .tariff_note{
-    border-top: #42a741 solid 2px;
-    border-bottom: #42a741 solid 2px;
     margin-top: 0;
-    padding: 5px 0;
-    height: 60px;
-    width: 100%;
+    margin-bottom: auto;
+    display: block;
+    padding: 5px 25px;
+    width: 250px;
+    height: 50px;
     align-content: center;
+    font-size: 13px;
+    background: #ffffff;
+    position: relative;
+    left: -25px;
+    border-top: #42a741 2px solid;
+    border-bottom: #42a741 2px solid;
 }
 .tariff_area_note{
     margin-top: 0;
@@ -1080,4 +1102,43 @@ marquee{
 .tariffs_alert button:hover{
     color: #883001;
     transform: scale(1.05);
+}
+.business_tariff_img_container{
+
+}
+.business_tariff_img_container{
+    overflow: hidden;
+    position: relative;
+    height: 380px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0);
+}
+.business_tariff_img_container h2 {
+    height: 80px;
+    font-size: 27px;
+    align-content: center;
+    margin: 0;
+}
+.business_tariff_img_container img{
+    pointer-events: none;
+    user-drag: none;
+    user-select: none;
+    height: 300px;
+    object-fit: cover;
+}
+.business_tariff_additions{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.business_tariff_text_container{
+    height: 300px;
+
+}
+.price_business{
+    height: 55px;
 }
