@@ -75,7 +75,7 @@
     <div class="carousel-container">
       <button class="carousel-arrow arrow-left">&#10094;</button>
       <div class="tariffs_container carousel-track" id="carouselTrack">
-        <div class="tariff carousel-item">
+        <div class="tariff carousel-item" style="margin-left: auto">
           <div class="business_tariff_img_container">
             <h2>Small Business 100</h2>
             <img src="https://www.coxblue.com/wp-content/uploads/2019/03/cox-business-best-internet-service-provider.jpg">
@@ -185,24 +185,29 @@
             <a class="tariff_button" href="https://uacity.net/files/business.pdf">Детальніше</a>
           </div>
         </div>
-        <div class="tariff carousel-item">
+        <div class="tariff carousel-item" style="padding-bottom: 0; margin-right: auto">
           <div class="business_tariff_img_container">
             <h2>Статичний ІР</h2>
             <img src="https://content.nordlayer.com/uploads/How_to_use_static_IP_address_blog_cover_1400x800_77a85d0af4.webp">
           </div>
           <div class="tariff_text_container business_tariff_text_container">
-            <p>1 статична IP</p>
-            <div class="price price_business">
+            <p>
+              Додаткові зовнішні статичні IP-адреси
+            </p>
+            <div class="price price_static">
               <div class="price_container"><h2>₴100</h2>
                 <p>/міс.</p>
               </div>
+              <p class="price_static_pcs">- 1 шт.</p>
             </div>
-            <p>5 статичних IP</p>
-            <div class="price price_business">
+            <div class="price price_static">
               <div class="price_container"><h2>₴400</h2>
                 <p>/міс.</p>
               </div>
+              <p class="price_static_pcs">- 5 шт.</p>
             </div>
+            <p class="tariff_static_note">Постійна, незмінна IP-адреса, яка призначається пристрою і не змінюється після вимкнення або перезавантаження пристрою</p>
+
           </div>
         </div>
       </div>
@@ -211,6 +216,7 @@
   </div>
 </div>
 <script>
+
   const track = document.getElementById('carouselTrack');
   const leftBtn = document.querySelector('.arrow-left');
   const rightBtn = document.querySelector('.arrow-right');
@@ -287,6 +293,7 @@
     }
     lastScroll = currentScroll;
   });
+
 </script>
 
 <!--script>window.scroll({left:0,behavior:"smooth"});</script>-->
