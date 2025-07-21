@@ -1142,3 +1142,67 @@ marquee{
 .price_business{
     height: 55px;
 }
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+
+}
+.carousel-track {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+    cursor: grab;
+    padding: 20px;
+}
+
+.carousel-track::-webkit-scrollbar {
+    display: none; /* Chrome */
+}
+.carousel-item {
+
+    user-select: none;
+    text-align: center;
+}
+.arrow-left, .arrow-right {
+    background: #42a741;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 2;
+}
+.carousel-track {
+    cursor: grab;
+}
+.carousel-track.dragging {
+    cursor: grabbing;
+}
+@media (max-width: 1000px) {
+    .carousel-item {
+        flex: 0 0 calc(100% / 4 - 12px);
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel-item {
+        flex: 0 0 calc(100% / 3 - 10.6px);
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-item {
+        flex: 0 0 calc(100% / 2 - 8px);
+    }
+}
+
+@media (max-width: 400px) {
+    .carousel-item {
+        flex: 0 0 100%;
+    }
+}
