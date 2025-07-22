@@ -754,11 +754,23 @@ a{
 .price_container p{
     margin-bottom: 0;
 }
+.price_container_business p{
+    margin-bottom: 0;
+}
 .price_container h2{
     font-size: 35px;
     margin-top: 7px;
 }
+.price_container_business h2{
+    font-size: 25px;
+    margin-top: 7px;
+}
 .price_container{
+    display: flex;
+    align-items: baseline;
+    height: min-content;
+}
+.price_container_business{
     display: flex;
     align-items: baseline;
     height: min-content;
@@ -801,7 +813,7 @@ a{
 }
 
 .tariffs_addition{
-    width: 1000px;
+    width: 1200px;
     text-align: justify;
     margin: 10px auto 0 auto;
     font-family: "Montserrat Medium";
@@ -1157,7 +1169,7 @@ marquee{
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE/Edge */
     cursor: grab;
-    padding: 20px 10px;
+    padding: 20px 50px;
     width: 100%;
 }
 
@@ -1170,7 +1182,7 @@ marquee{
     text-align: center;
 }
 .arrow-left, .arrow-right {
-    color: black;
+    color: #ffffff;
     background: transparent;
     border: none;
     font-size: 30px;
@@ -1196,10 +1208,23 @@ marquee{
     align-items: center;
     height: 55px;
 }
+.price_business_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin-bottom: 5px;
+}
 .price_static_pcs{
     font-size: 23px;
     position: relative;
     top: 5px;
+    margin: 0;
+}
+.mbps_speed{
+    font-size: 18px;
+    position: relative;
+    top: 7px;
     margin: 0;
 }
 .tariff_static_note{
@@ -1212,4 +1237,11 @@ marquee{
     width: 250px;
     position: relative;
     left: -25px;
+    bottom: -20px;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+.tariff_note_business{
+    height: 35px;
+    margin-top: 5px;
 }
