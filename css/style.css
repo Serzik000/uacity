@@ -593,7 +593,6 @@ a{
 }
 .tariffs{
     width: 100%;
-    min-height: 90vh;
     z-index: 2;
     margin-bottom: 0;
     box-shadow: rgba(255, 255, 255, 0) inset 0 0 10000px 1000px;
