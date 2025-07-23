@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <title>Uacity</title>
-    <link rel="icon" href="img/uacity_icon.png">
+    <link rel="icon" href="img/uacity_icon_2.png">
     <link rel="stylesheet" media="screen and (min-aspect-ratio: 9/7)" href="css/style.css"/>
     <link rel="stylesheet" media="screen and (max-aspect-ratio: 9/7)" href="css/mobile.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
 <header class="sticky-header">
@@ -47,7 +49,7 @@
         </div>
         <div class="menu_bottom">
             <div class="bottom_menu">
-                <a href="">
+                <a href="about">
                     <div><p>Про компанію</p></div>
                 </a>
                 <a href="tariffs">
@@ -65,6 +67,14 @@
                 <a href="">
                     <div><p>Посилання</p></div>
                 </a>
+            </div>
+            <div class="theme_change_container" style="display: none">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox-label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="ball"></span>
+                </label>
             </div>
         </div>
     </nav>
@@ -388,12 +398,10 @@
                 <label>П.І.Б</label>
                 <input type="text" name="fullname">
             </div>
-
             <div class="form_row">
                 <label>Вулиця</label>
                 <input type="text" name="street">
             </div>
-
             <div class="form_row">
                 <label>Місто</label>
                 <select name="city">
@@ -405,7 +413,6 @@
                     <option value="konotop">Конотоп</option>
                 </select>
             </div>
-
             <div class="form_row_3">
                 <label>Дім</label>
                 <input type="text" name="building">
@@ -418,42 +425,34 @@
                 <label>Поверх</label>
                 <input type="text" name="floor">
             </div>
-
             <div class="form_row">
                 <label>Контактний номер</label>
                 <input type="text" name="phone">
             </div>
-
             <div class="form_row">
                 <label>E-Mail</label>
                 <input type="email" name="email">
             </div>
-
             <div class="form_row">
                 <label>Звідки ви про нас дізнались</label>
                 <input type="text" name="source">
             </div>
-
             <div class="form_row">
                 <label>Від якого провайдера переключаєтесь</label>
                 <input type="text" name="prev_provider">
             </div>
-
             <div class="form_row">
                 <label>Бажана дата підключення</label>
                 <input type="text" name="desired_date">
             </div>
-
             <div class="form_row">
-                <label>Логін рекомендателя</label>
+                <label>Логін того, хто порекомендував</label>
                 <input type="text" name="recommender">
             </div>
-
             <div class="form_row">
                 <label>Коментар</label>
                 <textarea name="comment"></textarea>
             </div>
-
             <div class="form_row">
                 <label>Капча</label>
                 <div class="captcha_wrapper">
@@ -461,11 +460,26 @@
                     <input type="text" name="captcha" placeholder="Введіть код">
                 </div>
             </div>
-
             <button type="submit" onclick="console.log('відправлено')">Відправити заявку</button>
         </form>
     </div>
 </div>
+<script>
+    const checkbox = document.getElementById('checkbox');
+    const root = document.documentElement;
+
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+        root.setAttribute("data-theme", savedTheme);
+        checkbox.checked = savedTheme === "dark";
+    }
+
+    checkbox.addEventListener("change", () => {
+        const theme = checkbox.checked ? "dark" : "light";
+        root.setAttribute("data-theme", theme);
+        localStorage.setItem("theme", theme);
+    });
+</script>
 <script>
     document.querySelectorAll('input[name="rb"]').forEach(function(radio) {
         radio.addEventListener('change', function() {
