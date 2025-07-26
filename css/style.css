@@ -73,7 +73,7 @@ a{
 }
 .main_page{
     width: 100%;
-    min-height: 120vh;
+    min-height:calc(100% - 250px);
     display: block;
     margin-top: 140px;
     z-index: 2;
@@ -1382,13 +1382,16 @@ footer{
     color: white;
 }
 .about{
-    width: 100%;
+    width: max-content;
+    min-width: 84%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about_container{
-    width: 1200px;
+    max-width: 1200px;
+    width: 60%;
     margin-right: auto;
-    margin-left: auto;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 .about_container h1{
     font-family: "Montserrat Semibold", serif;
@@ -1474,9 +1477,81 @@ footer{
 .checkbox:checked + .checkbox-label .ball {
     transform: translateX(25px);
 }
+.about_menu{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 17%;
+    min-width: 250px;
+    height: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: auto;
 
+}
 
+.about_menu_button{
+    width: 200px;
+    background-color: white;
+    font-family: "Montserrat Semibold", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    border: none;
+    height: 40px;
+    margin: 5px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+}
 
+.about_menu_button_arrow_body {
+    background-color: white;
+    height: 100%;
+    width: 85%;
+    justify-content: center;
+    align-content: center;
+    transition-duration: 0.1s;
+}
+.about_menu_button_arrow_head {
+    width: 0;
+    height: 0;
+    border-top: 20px solid;
+    border-bottom: 20px solid;
+    border-left: 30px solid;
+    transition-duration: 0.1s;
+    border-left-color: white;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+.about_menu_button:hover .about_menu_button_arrow_body {
+    background-color: #42a741;
+    color: white;
+}
 
+.about_menu_button:hover .about_menu_button_arrow_head {
+    border-left-color: #42a741;
+    color: white;
+}
+.about_menu_button_active span{
+    background-color: #42a741;
+    color: white;
+    border-left-color: #42a741;
+    border-top-color: white;
+    border-bottom-color: white;
+    transition-duration: 0s;
+}
+.about{
+    display: flex;
+    align-items: center;
+}
+html{
+    height: 100vh;
+}
+.about_coverage{
+}
 
 

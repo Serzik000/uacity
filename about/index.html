@@ -71,6 +71,36 @@
 </header>
 <div class="main_page">
     <div class="about">
+        <div class="about_menu" id="about_menu">
+            <button class="about_menu_button about_menu_button_active" onclick="document.querySelector('.about_activity').style.display='block';
+                    document.querySelector('.about_advantages').style.display='none';
+                    document.querySelector('.about_technology').style.display='none';
+                    document.querySelector('.about_coverage').style.display='none';"><span class="about_menu_button_arrow_body">Діяльність</span>
+                <span class="about_menu_button_arrow_head"></span>
+            </button>
+            <button class="about_menu_button"
+                    onclick="document.querySelector('.about_activity').style.display='none';
+                    document.querySelector('.about_advantages').style.display='block';
+                    document.querySelector('.about_technology').style.display='none';
+                    document.querySelector('.about_coverage').style.display='none';"><span
+                    class="about_menu_button_arrow_body">Переваги</span>
+                <span class="about_menu_button_arrow_head"></span>
+            </button>
+            <button class="about_menu_button"
+                    onclick="document.querySelector('.about_activity').style.display='none';
+                    document.querySelector('.about_advantages').style.display='none';
+                    document.querySelector('.about_technology').style.display='block';
+                    document.querySelector('.about_coverage').style.display='none';"><span class="about_menu_button_arrow_body">Технологія</span>
+                <span class="about_menu_button_arrow_head"></span>
+            </button>
+            <button class="about_menu_button"
+                    onclick="document.querySelector('.about_activity').style.display='none';
+                    document.querySelector('.about_advantages').style.display='none';
+                    document.querySelector('.about_technology').style.display='none';
+                    document.querySelector('.about_coverage').style.display='block';"><span class="about_menu_button_arrow_body">Покриття</span>
+                <span class="about_menu_button_arrow_head"></span>
+            </button>
+        </div>
         <div class="about_container">
             <h1>Про компанію</h1>
             <div class="about_activity">
@@ -91,7 +121,7 @@
                     використовуючи можливості сучасної мережі, надаючи всі сучасні технології Інтернет, Телебачення та
                     Телефонії в кожен дім.</p>
             </div>
-            <div class="about_advantages">
+            <div class="about_advantages" style="display: none">
                 <h2>Переваги</h2>
                 <h3>Що ми пропонуємо</h3>
                 <p>ТОВ "ЮАСІТІ" пропонує абонентам підключення квартир
@@ -137,8 +167,8 @@
                     контролювати свій рахунок, керувати послугою та знайомитися з
                     корисними підказками.</p>
             </div>
-            <div class="about_technology">
-                <div class="content"><h2>Технологія</h2>
+            <div class="about_technology" style="display: none">
+                <div><h2>Технологія</h2>
                     <h3>Інтернет GPON</h3>
                     <p><strong>GPON</strong> — найнадійніша і найперспективніша технологія доступу в Інтернет на
                         сьогодні. Вона стрімко розвивається у всьому світі, а теперь і в Україні.</p>
@@ -170,7 +200,7 @@
                         забезпечити потребу в швидкому обміні інформацією. GPON не тільки повністю
                         відповідає сучасним вимогам, але і має ресурси та потенціал для забезпечення розвитку
                         технологій зв'язку в майбутньому.</p>
-                    <h3><strong>Переваги </strong><strong>GPON</strong></h3>
+                    <h3>Переваги GPON</h3>
                     <ul>
                         <li>Новий стандарт швидкісного доступу в Інтернет — від 10 Мбіт/с до 1 Гбіт/с.
                             <ul>
@@ -190,9 +220,7 @@
                         <li>Єдиний рахунок для оплати всіх послуг.</li>
                         <li>Можливість оплати в кредит в системі «Обіцяний платіж».</li>
                     </ul>
-
-
-                    <h3><strong>Як працює </strong><strong>GPON</strong></h3>
+                    <h3>Як працює GPON</h3>
                     <p>Забезпечення доступу до Інтернету за технологією GPON передбачає заміну старих мідних кабелів на
                         більш прогресивні оптоволоконні, що мають значно більшу пропускну здатність. Сигнал по
                         такому кабелю проходить за допомогою світлового, а не електричного імпульсу. Світловий імпульс
@@ -204,7 +232,7 @@
                         встановлюється модем — <strong>ONT</strong> (Optical Network Terminal), завдяки якому
                         підключення всіх послуг в майбутньому відбувається віддалено та в одному пристрої.</p>
 
-                    <h3><strong>Перспективи розвитку</strong></h3>
+                    <h3>Перспективи розвитку</h3>
                     <p>Сьогодні з впевненістю можна сказати, що технологія GPON не тільки йде в ногу з часом, але і набагато
                         випереджає його, розширюючи межі можливого. Новий стандарт швидкостей дозволить постійно
                         поповнювати пакет послуг, що надаються. Відеоспостереження, телеметрія, охоронно-тривожна
@@ -212,26 +240,21 @@
                         технології дозволяють говорити про перспективи розробки та впровадження багатьох інших послуг
                         для кращої якості життя.</p>
                 </div>
-                <div>
-                    <div><h2>Покриття</h2>
-                        <h3>Підключення юридичних осіб.</h3>
-                        <p>м.Київ, м.Ніжин, м.Конотоп, м.Шостка, м.Кролевець, м.Носівка, м.Ковель</p>
-                        <h3>Підключення фізичних осіб</h3>
-                        <p>м.Ніжин - багатоквартирні будинки та приватний сектор.<br><br>
-                            м.Шостка - багатоквартирні будинки та приватний сектор.<br><br>
-                            м.Носівка - багатоквартирні будинки та приватний сектор. <br><br></p>
-
-                        <p>Час підключення залежить від варіанта підключення та від місця підключення.<br><br><br><br></p>
-                        <p><b>Телефони:&nbsp;&nbsp;0 800 600 300 &nbsp;&nbsp;</b><br>
-                        </p>
-                    </div>
+            </div>
+            <div class="about_coverage" style="display: none">
+                <div><h2>Покриття</h2>
+                    <h3>Підключення юридичних осіб.</h3>
+                    <p>м.Київ, м.Ніжин, м.Конотоп, м.Шостка, м.Кролевець, м.Носівка, м.Ковель</p>
+                    <h3>Підключення фізичних осіб</h3>
+                    <p>м.Ніжин - багатоквартирні будинки та приватний сектор.<br><br>
+                        м.Шостка - багатоквартирні будинки та приватний сектор.<br><br>
+                        м.Носівка - багатоквартирні будинки та приватний сектор. <br><br></p>
+                    <p>Час підключення залежить від варіанту підключення та від місця підключення.<br><br><br><br></p>
+                    <p><b>Телефон: 0 800 600 300 &nbsp;&nbsp;</b><br>
+                    </p>
                 </div>
             </div>
-
         </div>
-
-
-    </div>
     </div>
 </div>
 <footer>
@@ -330,6 +353,21 @@
             header.classList.remove('hide-top');
         }
         lastScroll = currentScroll;
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var header = document.getElementById("about_menu");
+        var btns = header.getElementsByClassName("about_menu_button");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("about_menu_button_active");
+                if (current.length > 0) {
+                    current[0].className = current[0].className.replace(" about_menu_button_active", "");
+                }
+                this.className += " about_menu_button_active";
+            });
+        }
     });
 </script>
 
