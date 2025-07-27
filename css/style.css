@@ -1553,5 +1553,60 @@ html{
 }
 .about_coverage{
 }
+.for_clients{
+    width: 100%;
+    padding-top: 35px;
+}
+.for_clients_container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.for_clients_container h1{
+    font-size: 35px;
+    font-family: "Montserrat Semibold";
+    margin-bottom: 25px;
+}
+.for_clients_items_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.for_clients_item{
+    width: 300px;
+    height: 200px;
+    background: #ffffff;
+    border-radius: 15px;
+    font-family: "Montserrat Semibold", serif;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2), 0 0 1px 0 rgba(0, 0, 0, 0.32);
+    display: block;
+    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin: 20px 48px 20px 48px;
+    position: relative;
+    top:0;
+    border: white 2px solid;
+}
+.for_clients_item:hover{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+    top: 5px;
+    color: #42a741;
+}
+.for_clients_item p{
+    margin-top: 5px;
+    position: relative;
+}
+.for_clients_item svg{
+    fill: black;
+    width: min-content;
+    height: 75%;
+    transition: all .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    text-shadow: 1px 1px 2px;
+    filter: drop-shadow( 3px 3px 2px rgba(63, 63, 63, 0.18));
 
-
+}
+.for_clients_item:hover svg{
+    fill: #42a741;
+    filter: drop-shadow( 1px 1px 2px rgba(66, 167, 65, 0.35));
+}
