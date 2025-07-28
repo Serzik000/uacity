@@ -6,15 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="696a8e6d-4fb5-41f7-bedd-2d8c2204b8e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/business/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/doc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_clietns/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oplata/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oplata/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tariffs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tariffs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_clients/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_clients/speedtest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/speedtest/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Web/uacity/uacity/for_clients/speedtest",
+    "last_opened_file_path": "D:/Web/uacity/uacity/for_clients/help",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +50,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web\uacity\uacity\for_clients\help" />
       <recent name="D:\Web\uacity\uacity\for_clients\speedtest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -114,7 +109,7 @@
       <workItem from="1753265662506" duration="1266000" />
       <workItem from="1753517761063" duration="10236000" />
       <workItem from="1753601466449" duration="7979000" />
-      <workItem from="1753684678523" duration="6025000" />
+      <workItem from="1753684678523" duration="7874000" />
     </task>
     <servers />
   </component>
