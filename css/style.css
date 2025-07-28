@@ -1587,6 +1587,8 @@ html{
     position: relative;
     top:0;
     border: white 2px solid;
+    text-decoration: none;
+    color: black;
 }
 .for_clients_item:hover{
     box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
