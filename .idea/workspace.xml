@@ -7,8 +7,10 @@
     <list default="true" id="696a8e6d-4fb5-41f7-bedd-2d8c2204b8e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_clients/help/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/help/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_clients/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_clients/speedtest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/speedtest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,28 +30,41 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2vtY7GkuMfiLDeOHmKDUQTbDOLS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Web/uacity/uacity/for_clients/help",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Coverage&quot;,
+    &quot;JavaScript Debug.index.html (2).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Web/uacity/uacity/for_clients/vpn&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.data.views.appearance&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web\uacity\uacity\for_clients\vpn" />
+      <recent name="D:\Web\uacity\uacity\for_clients\ping" />
       <recent name="D:\Web\uacity\uacity\for_clients\help" />
       <recent name="D:\Web\uacity\uacity\for_clients\speedtest" />
     </key>
@@ -57,8 +72,11 @@
       <recent name="D:\Web\uacity\uacity\css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" uri="http://localhost:63342/uacity/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" uri="http://localhost:63342/uacity/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" uri="http://localhost:63342/escoffier_guide/index.html" useBuiltInWebServerPort="true">
@@ -66,10 +84,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-WS-252.23892.411" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,7 +135,16 @@
       <workItem from="1753265662506" duration="1266000" />
       <workItem from="1753517761063" duration="10236000" />
       <workItem from="1753601466449" duration="7979000" />
-      <workItem from="1753684678523" duration="7874000" />
+      <workItem from="1753684678523" duration="10643000" />
+      <workItem from="1753701545782" duration="4490000" />
+      <workItem from="1753777362514" duration="6550000" />
+      <workItem from="1755411645573" duration="30000" />
+      <workItem from="1755412380293" duration="202000" />
+      <workItem from="1755413806042" duration="890000" />
+      <workItem from="1755507788791" duration="165000" />
+      <workItem from="1755509740655" duration="515000" />
+      <workItem from="1755510297480" duration="10609000" />
+      <workItem from="1755939140235" duration="1629000" />
     </task>
     <servers />
   </component>
