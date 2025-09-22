@@ -788,8 +788,6 @@ a{
 }
 #tariffs_nizhyn{
     display: flex;
-    flex-direction: column;
-
 }
 
 .tariffs_addition{
@@ -896,7 +894,7 @@ a{
     padding-right: 5px;
 }
 .marquee{
-    display: flex;
+    display: none;
     width: 100%;
 }
 .marquee a{
@@ -1276,7 +1274,7 @@ footer{
     margin-top: 50px;
     color: white;
     font-family: "Montserrat Semibold";
-    padding: 20px 50px;
+    padding: 20px 50px 500px 50px;
 
 }
 .social_networks_footer svg{
@@ -1284,8 +1282,10 @@ footer{
 }
 .footer_container{
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between;
+    height: max-content;
 
 }
 .copyright{
@@ -1960,12 +1960,11 @@ html{
     text-align: center;
 }
 .left_menu_phone_number{
-    margin-bottom: 50px;
+    margin-bottom: 250px;
     margin-top: auto;
 }
 .left_menu_phone_number p{
     color: #fc8c1a;
     font-family: "Montserrat Bold", serif;
     font-size: 50px;
-
 }

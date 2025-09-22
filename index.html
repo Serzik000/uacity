@@ -142,9 +142,9 @@
             <input type="radio" name="rb" id="shostka"/>
             <label for="shostka">Шостка</label>
         </div>
-        <div id="tariffs_nizhyn">
-            <div class="tariffs_container">
-                <div class="tariff">
+        <div id="tariffs_nizhyn" class="carousel-container">
+            <div class="tariffs_container carousel-track" id="carouselTrack">
+                <div class="tariff carousel-item" style="margin-left: auto">
                     <div class="tariff_img_container">
                         <h2>1 Gig Home</h2>
                         <img src="img/tariff1gig.png" alt="">
@@ -166,7 +166,7 @@
                         <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
                     </div>
                 </div>
-                <div class="tariff">
+                <div class="tariff carousel-item">
                     <div class="tariff_img_container">
                         <h2>3 Gig Family</h2>
                         <img src="img/tariff3gig.png" alt="">
@@ -189,7 +189,7 @@
                         <a class="tariff_button" href="https://uacity.net/aam/2025n9.pdf">Детальніше</a>
                     </div>
                 </div>
-                <div class="tariff">
+                <div class="tariff carousel-item" style="margin-right: auto">
                     <div class="tariff_img_container">
                         <h2>5 Gig Edge</h2>
                         <img src="img/tariff5gig.png" alt="">
@@ -214,101 +214,112 @@
                 </div>
             </div>
         </div>
-        <div class="tariffs_container" id="tariffs_nosivka" style="display: none">
-            <div class="tariff">
-                <div class="tariff_img_container">
-                    <h2>Fiber 500</h2>
-                    <img src="img/tariff1gig.png" alt="">
+        <div class="tariffs_container carousel-container" id="tariffs_nosivka" style="display: none">
+            <div class="tariffs_container carousel-track" id="carouselTrack">
+                <div class="tariff carousel-item" style="margin-left: auto">
+                    <div class="tariff_img_container">
+                        <h2>Fiber 500</h2>
+                        <img src="img/tariff1gig.png" alt="">
+                    </div>
+                    <div class="tariff_text_container">
+                        <div class="price">
+                            <div class="price_container"><h2>₴175</h2><p>/міс.</p></div>
+                            <p class="price_note">*з 5 місяця 350/міс</p>
+                        </div>
+                        <p class="tariff_note">Надійний інтернет до 500 Мбіт/с</p>
+                        <div class="tariff_connection_type">
+                            <p>Підключення:</p>
+                            <p class="tariff_connection_type_gpon">GPON</p>
+                        </div>
+                        <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
+                        <a class="tariff_button" href="https://uacity.net/aam/p2025nn.pdf">Детальніше</a>
+                    </div>
                 </div>
-                <div class="tariff_text_container">
-                    <div class="price">
-                        <div class="price_container"><h2>₴175</h2><p>/міс.</p></div>
-                        <p class="price_note">*з 5 місяця 350/міс</p>
+                <div class="tariff carousel-item" style="margin-right: auto">
+                    <div class="tariff_img_container">
+                        <h2>Fiber 1000</h2>
+                        <img src="img/tariff3gig.png" alt="">
                     </div>
-                    <p class="tariff_note">Надійний інтернет до 500 Мбіт/с</p>
-                    <div class="tariff_connection_type">
-                        <p>Підключення:</p>
-                        <p class="tariff_connection_type_gpon">GPON</p>
+                    <div class="tariff_text_container">
+                        <div class="price">
+                            <div class="price_container"><h2>₴250</h2><p>/міс.</p></div>
+                            <p class="price_note">*з 5 місяця 500/міс</p>
+                        </div>
+                        <p class="tariff_note">Легкий гігабітний інтернет преміум класу</p>
+                        <div class="tariff_connection_type">
+                            <p>Підключення:</p>
+                            <p class="tariff_connection_type_gpon">GPON</p>
+                        </div>
+                        <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
+                        <a class="tariff_button" href="https://uacity.net/aam/p2025nn.pdf">Детальніше</a>
                     </div>
-                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
-                    <a class="tariff_button" href="https://uacity.net/aam/p2025nn.pdf">Детальніше</a>
-                </div>
-            </div>
-            <div class="tariff">
-                <div class="tariff_img_container">
-                    <h2>Fiber 1000</h2>
-                    <img src="img/tariff3gig.png" alt="">
-                </div>
-                <div class="tariff_text_container">
-                    <div class="price">
-                        <div class="price_container"><h2>₴250</h2><p>/міс.</p></div>
-                        <p class="price_note">*з 5 місяця 500/міс</p>
-                    </div>
-                    <p class="tariff_note">Легкий гігабітний інтернет преміум класу</p>
-                    <div class="tariff_connection_type">
-                        <p>Підключення:</p>
-                        <p class="tariff_connection_type_gpon">GPON</p>
-                    </div>
-                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
-                    <a class="tariff_button" href="https://uacity.net/aam/p2025nn.pdf">Детальніше</a>
                 </div>
             </div>
         </div>
-        <div class="tariffs_container" id="tariffs_shostka" style="display: none">
-            <div class="tariff">
-                <div class="tariff_img_container">
-                    <h2>F 100</h2>
-                    <img src="img/tariff1gig.png" alt="">
+        <div class="tariffs_container carousel-container" id="tariffs_shostka" style="display: none">
+            <div class="tariffs_container carousel-track" id="carouselTrack">
+                <div class="tariff carousel-item" style="margin-left: auto">
+                    <div class="tariff_img_container">
+                        <h2>F 100</h2>
+                        <img src="img/tariff1gig.png" alt="">
+                    </div>
+                    <div class="tariff_text_container">
+                        <div class="price">
+                            <div class="price_container"><h2>₴150</h2>
+                                <p>/міс.</p></div>
+                            <p class="price_note">*з 5 місяця 300/міс</p>
+                        </div>
+                        <p class="tariff_note">Надійний інтернет до 100 Мбіт/с</p>
+                        <div class="tariff_connection_type">
+                            <p>Підключення:</p>
+                            <p class="tariff_connection_type_fftb">FFTB</p>
+                        </div>
+                        <a class="tariff_button" href="https://uacity.net/aam/f2025nn.pdf">Детальніше</a>
+                    </div>
                 </div>
-                <div class="tariff_text_container">
-                    <div class="price">
-                        <div class="price_container"><h2>₴150</h2><p>/міс.</p></div>
-                        <p class="price_note">*з 5 місяця 300/міс</p>
+                <div class="tariff carousel-item">
+                    <div class="tariff_img_container">
+                        <h2>F 500</h2>
+                        <img src="img/tariff3gig.png" alt="">
                     </div>
-                    <p class="tariff_note">Надійний інтернет до 100 Мбіт/с</p>
-                    <div class="tariff_connection_type">
-                        <p>Підключення:</p>
-                        <p class="tariff_connection_type_fftb">FFTB</p>
+                    <div class="tariff_text_container">
+                        <div class="price">
+                            <div class="price_container"><h2>₴175</h2>
+                                <p>/міс.</p></div>
+                            <p class="price_note">*з 5 місяця 350/міс</p>
+                        </div>
+                        <p class="tariff_note">Надійний інтернет до 500 Мбіт/с</p>
+                        <div class="tariff_connection_type">
+                            <p>Підключення:</p>
+                            <p class="tariff_connection_type_gpon">GPON</p>
+                        </div>
+                        <div style="display: flex; justify-content: space-between"><p class="tariff_reserv">Резервне
+                            живлення до 72 годин</p>
+                            <p class="tariff_reserv">✅</p></div>
+                        <a class="tariff_button" href="https://uacity.net/aam/f2025nn.pdf">Детальніше</a>
                     </div>
-                    <a class="tariff_button" href="https://uacity.net/aam/f2025nn.pdf">Детальніше</a>
                 </div>
-            </div>
-            <div class="tariff">
-                <div class="tariff_img_container">
-                    <h2>F 500</h2>
-                    <img src="img/tariff3gig.png" alt="">
-                </div>
-                <div class="tariff_text_container">
-                    <div class="price">
-                        <div class="price_container"><h2>₴175</h2><p>/міс.</p></div>
-                        <p class="price_note">*з 5 місяця 350/міс</p>
+                <div class="tariff carousel-item" style="margin-right: auto">
+                    <div class="tariff_img_container">
+                        <h2>F 1000</h2>
+                        <img src="img/tariff5gig.png" alt="">
                     </div>
-                    <p class="tariff_note">Надійний інтернет до 500 Мбіт/с</p>
-                    <div class="tariff_connection_type">
-                        <p>Підключення:</p>
-                        <p class="tariff_connection_type_gpon">GPON</p>
+                    <div class="tariff_text_container">
+                        <div class="price">
+                            <div class="price_container"><h2>₴250</h2>
+                                <p>/міс.</p></div>
+                            <p class="price_note">*з 5 місяця 500/міс</p>
+                        </div>
+                        <p class="tariff_note">Легкий гігабітний інтернет преміум класу</p>
+                        <div class="tariff_connection_type">
+                            <p>Підключення:</p>
+                            <p class="tariff_connection_type_gpon">GPON</p>
+                        </div>
+                        <div style="display: flex; justify-content: space-between"><p class="tariff_reserv">Резервне
+                            живлення до 72 годин</p>
+                            <p class="tariff_reserv">✅</p></div>
+                        <a class="tariff_button" href="https://uacity.net/aam/f2025nn.pdf">Детальніше</a>
                     </div>
-                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
-                    <a class="tariff_button" href="https://uacity.net/aam/f2025nn.pdf">Детальніше</a>
-                </div>
-            </div>
-            <div class="tariff">
-                <div class="tariff_img_container">
-                    <h2>F 1000</h2>
-                    <img src="img/tariff5gig.png" alt="">
-                </div>
-                <div class="tariff_text_container">
-                    <div class="price">
-                        <div class="price_container"><h2>₴250</h2><p>/міс.</p></div>
-                        <p class="price_note">*з 5 місяця 500/міс</p>
-                    </div>
-                    <p class="tariff_note">Легкий гігабітний інтернет преміум класу</p>
-                    <div class="tariff_connection_type">
-                        <p>Підключення:</p>
-                        <p class="tariff_connection_type_gpon">GPON</p>
-                    </div>
-                    <div style="display: flex; justify-content: space-between"><p class="tariff_reserv" >Резервне живлення до 72 годин</p><p class="tariff_reserv" >✅</p></div>
-                    <a class="tariff_button" href="https://uacity.net/aam/f2025nn.pdf">Детальніше</a>
                 </div>
             </div>
         </div>
@@ -402,6 +413,9 @@
 </footer>
 <div class="left_menu_container" style="display: none">
     <div class="left_menu">
+        <a href="tel:0800600300" class="left_menu_phone_number">
+            <p>0 (800) 600 300</p>
+        </a>
         <a href="about">
             <div><p>Про компанію</p></div>
         </a>
@@ -420,9 +434,7 @@
         <a href="links">
             <div><p>Посилання</p></div>
         </a>
-        <a href="tel:0800600300" class="left_menu_phone_number">
-            <p>0 (800) 600 300</p>
-        </a>
+
     </div>
 
 
@@ -694,7 +706,69 @@
         }
     });
 </script>
+<script>
 
+    const track = document.getElementById('carouselTrack');
+    const leftBtn = document.querySelector('.arrow-left');
+    const rightBtn = document.querySelector('.arrow-right');
+
+    function scrollByItem(direction) {
+        const item = track.querySelector('.carousel-item');
+        if (!item) return;
+        const style = window.getComputedStyle(item);
+        const gap = parseFloat(style.marginLeft) + parseFloat(style.marginRight);
+        const scrollAmount = item.offsetWidth + gap;
+
+        track.scrollBy({
+            left: direction === 'left' ? -scrollAmount : scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+
+    leftBtn.addEventListener('click', () => scrollByItem('left'));
+    rightBtn.addEventListener('click', () => scrollByItem('right'));
+
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    track.addEventListener('mousedown', (e) => {
+        isDown = true;
+        track.classList.add('dragging');
+        startX = e.pageX - track.offsetLeft;
+        scrollLeft = track.scrollLeft;
+    });
+
+    track.addEventListener('mouseleave', () => {
+        isDown = false;
+        track.classList.remove('dragging');
+    });
+
+    track.addEventListener('mouseup', () => {
+        isDown = false;
+        track.classList.remove('dragging');
+    });
+
+    track.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - track.offsetLeft;
+        const walk = (x - startX) * 1.5;
+        track.scrollLeft = scrollLeft - walk;
+    });
+
+    let touchStartX = 0;
+    track.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+    });
+
+    track.addEventListener('touchend', (e) => {
+        const endX = e.changedTouches[0].clientX;
+        const delta = endX - touchStartX;
+        if (delta > 50) scrollByItem('left');
+        else if (delta < -50) scrollByItem('right');
+    });
+</script>
 
 
 <!--script>window.scroll({left:0,behavior:"smooth"});</script>-->
