@@ -110,6 +110,7 @@ a{
     margin: 0;
     padding-top: 15px;
     text-decoration: none;
+    font-size: 40px;
 }
 .bottom_menu:hover p{
     text-decoration: none;
@@ -134,25 +135,13 @@ a{
     margin-left: auto;
     margin-right: auto;
     align-content: space-around;
-    height: 90px;
+    height: 190px;
     background: white;
     z-index: 1;
 }
 
 .menu_bottom {
-    position: relative;
-    display: flex;
-    text-align: center;
-    width: 100%;
-    align-content: center;
-    height: 50px;
-    background: #ffffff;
-    justify-content: space-evenly;
-    z-index: 2;
-    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
-    font-family: "Montserrat Semibold";
-    font-size: 15px;
-    text-decoration: none;
+    display: none;
 
 }
 
@@ -160,38 +149,17 @@ a{
 .sticky-header.hide-top {
     transform: translateY(-90px);
 }
-.image_logo, .img_logo{
-    margin-left:20px;
-    height: 80px;
-    margin-top: 2px;
+.image_logo{
+    margin-left: 50px;
+    height: 180px;
+}
+.img_logo{
+    height: 180px;
+    margin-top: 5px;
 }
 .top_menu_phone_number{
-    text-decoration: none;
-    color: #fc8c1a;
-    background: white;
-    font-size: 30px;
-    font-family: "Montserrat Bold";
-    margin-left: 100px;
-    height: 100%;
-    align-content: center;
+    display: none;
 
-}
-.top_menu_phone_number p{
-    font-size: 30px;
-    font-family: "Montserrat Bold";
-    margin-bottom: auto;
-    margin-top: auto;
-    display: block;
-    position: relative;
-    transition-duration: 0.2s;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-.top_menu_phone_number:hover{
-    color: #ffffff;
-    background: #fc8c1a;
-    text-decoration: none;
-    transition-duration: 0.2s;
 }
 .header_cabinet{
     display: inline-flex;
@@ -200,7 +168,7 @@ a{
     font-size: 18px;
     text-decoration: none;
     align-content: center;
-    margin-right: 30px;
+    margin-right: 40px;
     fill: black;
 }
 .header_cabinet:hover{
@@ -209,13 +177,12 @@ a{
     text-decoration: none;
 }
 .img_icon{
-    width: 30px;
+    width: 80px;
 
 }
 .header_cabinet p, .header_payment p{
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 15px;
+    display: none;
+
 }
 .header_payment{
     display: inline-flex;
@@ -224,7 +191,7 @@ a{
     font-size: 18px;
     text-decoration: none;
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 40px;
     fill: black;
 }
 .header_payment_icon path{
@@ -1862,7 +1829,7 @@ html{
 
 .links_cards_grid {
     display: grid;
-    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns:repeat(auto-fill, minmax(400px, 1fr));
     gap: 16px
 }
 
@@ -1892,7 +1859,7 @@ html{
 
 .links_card p {
     margin: 0;
-    color: gray;
+    color: #686868;
     font-size: 15px;
     font-family: "Montserrat Regular", serif;
 }
@@ -1918,6 +1885,7 @@ html{
     transition: background .2s ease, transform .15s ease;
     white-space: nowrap;
     color: #409c3f;);
+    font-family: "Montserrat Regular", serif;
 }
 
 .link_pill:hover {
@@ -1953,4 +1921,51 @@ html{
 .link_container_subtitle{
     font-family: "Montserrat Medium", serif;
     font-size: 16px;
+}
+.menu_2_activate{
+    display: block;
+    width: 190px;
+    font-family: "Montserrat Bold", serif;
+    color: black;
+    background: 0;
+    text-align: center;
+    font-size: 90px;
+    border: 1px solid gray;
+}
+.left_menu_container{
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+}
+.left_menu {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 16px;
+    width: 50%;
+}
+.left_menu a{
+    color: #42a741;
+    text-decoration: none;
+    font-family: "Montserrat Bold", serif;
+    font-size: 50px;
+    text-align: center;
+}
+.left_menu_phone_number{
+    margin-bottom: 50px;
+    margin-top: auto;
+}
+.left_menu_phone_number p{
+    color: #fc8c1a;
+    font-family: "Montserrat Bold", serif;
+    font-size: 50px;
+
 }
