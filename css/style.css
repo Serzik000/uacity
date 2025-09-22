@@ -1811,3 +1811,146 @@ html{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.documents_container{
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat Semibold";
+    font-size: 18px;
+    padding: 0 0 0 0;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.document{
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    color: black;
+    padding: 5px 20px;
+    width: 500px;
+    border-radius: 20px;
+    align-items: center;
+    transition-duration: 0.2s;
+}
+.document_pdf{
+    border: 2px solid #ff6666;
+    color: #ff6666;
+}
+.document_pdf:hover{
+    color: white;
+    background: #ff6666;
+}
+.document_docx{
+    border: 2px solid #6fb2ff;
+    color:#6fb2ff ;
+}
+.document_docx:hover{
+    color: white;
+    background: #6fb2ff;
+}
+.link_container h1{
+    font-size: 35px;
+    font-family: "Montserrat Semibold";
+    margin-bottom: 25px;
+}
+.link_container{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+.links_cards_grid {
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px
+}
+
+.links_card {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #9ee89d;
+    border-radius: 18px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .25);
+    transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+.links_card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, .35);
+    border-color: rgba(128, 255, 211, .25)
+}
+
+.links_card h3 {
+    margin: 0;
+    font-size: 20px;
+    font-family: "Montserrat Medium", serif;
+}
+
+.links_card p {
+    margin: 0;
+    color: gray;
+    font-size: 15px;
+    font-family: "Montserrat Regular", serif;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.link_pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(101, 255, 90, 0.35);
+    padding: 8px 12px;
+    border-radius: 999px;
+    transition: background .2s ease, transform .15s ease;
+    white-space: nowrap;
+    color: #409c3f;);
+}
+
+.link_pill:hover {
+    background: rgba(151, 255, 90, 0.2);
+    transform: translateY(-1px)
+}
+
+.link_tag {
+    font-size: 12px;
+    color: #000000;
+    margin-left: auto;
+    font-family: "Montserrat Regular";
+}
+
+
+.links_cards_container {
+    margin: 28px 0
+}
+
+.links_cards_container h2 {
+    font-size: 22px;
+    margin: 0 0 12px;
+    color: #000000;
+    font-family: "Montserrat Medium";
+}
+
+.links_cards_container .link_cards_desc {
+    color: #000000;
+    margin:0 0 16px;
+    font-size:16px;
+    font-family: "Montserrat Regular";
+}
+.link_container_subtitle{
+    font-family: "Montserrat Medium", serif;
+    font-size: 16px;
+}

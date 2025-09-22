@@ -62,7 +62,7 @@
                 <a href="../contacts/">
                     <div><p>Контакти</p></div>
                 </a>
-                <a href="">
+                <a href="../links/">
                     <div><p>Посилання</p></div>
                 </a>
             </div>
@@ -184,7 +184,7 @@
                 <a href="../contacts/">
                     <div><p>Контакти</p></div>
                 </a>
-                <a href="">
+                <a href="../links/">
                     <div><p>Посилання</p></div>
                 </a>
             </div>
@@ -224,147 +224,6 @@
         lastScroll = currentScroll;
     });
 </script>
-<script>
-    const carousel = document.querySelector('.carousel');
-    const container = document.querySelector('.carousel_container');
-    const baseItems = Array.from(document.querySelectorAll('.carousel_item'));
-
-    const firstClone = baseItems[0].cloneNode(true);
-    const lastClone = baseItems[baseItems.length - 1].cloneNode(true);
-    carousel.appendChild(firstClone);
-    carousel.insertBefore(lastClone, baseItems[0]);
-
-    const items = Array.from(document.querySelectorAll('.carousel_item'));
-    let currentIndex = 1;
-    let itemWidth = items[0].offsetWidth;
-
-    let isDragging = false;
-    let isTransitioning = false;
-    let startX = 0;
-    let currentTranslate = 0;
-    let prevTranslate = 0;
-    let animationID;
-
-    function setPosition(index) {
-        currentTranslate = -oplata * itemWidth;
-        prevTranslate = currentTranslate;
-        carousel.style.transform = `translateX(${currentTranslate}px)`;
-        if (carousel.style.transition !== 'none') {
-            carousel.style.transition = 'transform 0.3s ease';
-        }
-    }
-
-    function startDrag(x) {
-        if (isTransitioning) return;
-        isDragging = true;
-        startX = x;
-        animationID = requestAnimationFrame(animation);
-        carousel.style.transition = 'none';
-        carousel.style.cursor = 'grabbing';
-    }
-
-    function moveDrag(x) {
-        if (!isDragging) return;
-        const delta = x - startX;
-        currentTranslate = prevTranslate + delta;
-    }
-
-    function endDrag() {
-        if (!isDragging) return;
-        cancelAnimationFrame(animationID);
-        isDragging = false;
-        carousel.style.cursor = 'grab';
-
-        const movedBy = currentTranslate - prevTranslate;
-
-        if (isTransitioning) return;
-        isTransitioning = true;
-
-        if (movedBy < -500) {
-            currentIndex++;
-        } else if (movedBy > 500) {
-            currentIndex--;
-        }
-
-        carousel.style.transition = 'transform 0.3s ease';
-        setPosition(currentIndex);
-
-        carousel.addEventListener('transitionend', handleLoopingOnce, { once: true });
-    }
-
-    function animation() {
-        carousel.style.transform = `translateX(${currentTranslate}px)`;
-        if (isDragging) requestAnimationFrame(animation);
-    }
-
-    function handleLoopingOnce() {
-        if (currentIndex === 0) {
-            currentIndex = items.length - 2;
-            carousel.style.transition = 'none';
-            setPosition(currentIndex);
-
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                    carousel.style.transition = 'transform 0.3s ease';
-                    isTransitioning = false;
-                });
-            });
-        } else if (currentIndex === items.length - 1) {
-            currentIndex = 1;
-            carousel.style.transition = 'none';
-            setPosition(currentIndex);
-
-            requestAnimationFrame(() => {
-                requestAnimationFrame(() => {
-                    carousel.style.transition = 'transform 0.3s ease';
-                    isTransitioning = false;
-                });
-            });
-        } else {
-            isTransitioning = false;
-        }
-    }
-
-    document.querySelector('.arrow.left').addEventListener('click', () => {
-        if (isTransitioning) return;
-        isTransitioning = true;
-        currentIndex--;
-        setPosition(currentIndex);
-        carousel.addEventListener('transitionend', handleLoopingOnce, { once: true });
-    });
-
-    document.querySelector('.arrow.right').addEventListener('click', () => {
-        if (isTransitioning) return;
-        isTransitioning = true;
-        currentIndex++;
-        setPosition(currentIndex);
-        carousel.addEventListener('transitionend', handleLoopingOnce, { once: true });
-    });
-
-    carousel.addEventListener('mousedown', (e) => startDrag(e.clientX));
-    window.addEventListener('mousemove', (e) => moveDrag(e.clientX));
-    window.addEventListener('mouseup', endDrag);
-
-    carousel.addEventListener('touchstart', (e) => startDrag(e.touches[0].clientX));
-    carousel.addEventListener('touchmove', (e) => moveDrag(e.touches[0].clientX));
-    carousel.addEventListener('touchend', endDrag);
-
-    window.addEventListener('resize', () => {
-        itemWidth = items[0].offsetWidth;
-        setPosition(currentIndex);
-    });
-
-    setTimeout(() => setPosition(currentIndex), 0);
-</script>
-<script>
-    document.querySelector('.order_form_container').addEventListener('click', function (e) {
-        if (e.target === this) {
-            this.style.display = 'none';
-        }
-    });
-</script>
-
-
 
 <!--script>window.scroll({left:0,behavior:"smooth"});</script>-->
 </body>
