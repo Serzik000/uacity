@@ -1918,6 +1918,7 @@ html{
     transition: background .2s ease, transform .15s ease;
     white-space: nowrap;
     color: #409c3f;);
+    font-family: "Montserrat Regular", serif;
 }
 
 .link_pill:hover {
