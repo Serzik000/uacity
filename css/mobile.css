@@ -29,8 +29,8 @@ h3{
     font-weight: normal;
 }
 ::-webkit-scrollbar {
-    width: 0.5vw;
-    height: 0.8vh;
+    width: 2vw;
+    height: 2vh;
     opacity: 50%;
 }
 ::-webkit-scrollbar-track {
@@ -1468,6 +1468,7 @@ footer{
     justify-content: center;
     margin-top: 0;
     margin-bottom: auto;
+    width: 90%;
 
 }
 
