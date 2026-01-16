@@ -1362,38 +1362,40 @@ footer{
     font-size: 35px;
 }
 .about{
-    width: max-content;
+    width: fit-content;
     min-width: 84%;
     margin-left: auto;
     margin-right: auto;
 }
 .about_container{
-    max-width: 1200px;
-    width: 60%;
+    width: 90%;
     margin-right: auto;
+    margin-left: auto;
     margin-top: 50px;
 }
 .about_container h1{
     font-family: "Montserrat Semibold", serif;
-    font-size: 35px;
+    font-size: 70px;
 }
 .about_container h2{
     font-family: "Montserrat Semibold", serif;
-    font-size: 29px;
+    font-size: 55px;
 
 }
 .about_container h3{
     font-family: "Montserrat Medium", serif;
-    font-size: 21px;
+    font-size: 42px;
 
 }
 .about_container p{
     font-family: "Montserrat Medium", serif;
     text-align: justify;
+    font-size: 33px;
 }
 .about_container ul{
     font-family: "Montserrat Medium", serif;
     text-align: justify;
+    font-size: 33px;
 }
 .about_container a{
     text-decoration: none;
@@ -1459,12 +1461,11 @@ footer{
 }
 .about_menu{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     position: relative;
-    width: 17%;
-    min-width: 250px;
-    height: 500px;
+    height: 50px;
     padding-left: 30px;
+    padding-top: 100px;
     padding-right: 30px;
     justify-content: center;
     margin-top: 0;
@@ -1473,17 +1474,18 @@ footer{
 }
 
 .about_menu_button{
-    width: 200px;
+    width: 250px;
     background-color: white;
     font-family: "Montserrat Semibold", sans-serif;
-    font-size: 20px;
+    font-size: 35px;
     cursor: pointer;
     transition-duration: 0.2s;
     border: none;
-    height: 40px;
+    height: 70px;
     margin: 5px;
     position: relative;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 0;
 }
@@ -1495,17 +1497,12 @@ footer{
     justify-content: center;
     align-content: center;
     transition-duration: 0.1s;
+    padding-right: 22px;
+    padding-left: 22px;
+    border-radius: 10px;
 }
 .about_menu_button_arrow_head {
-    width: 0;
-    height: 0;
-    border-top: 20px solid;
-    border-bottom: 20px solid;
-    border-left: 30px solid;
-    transition-duration: 0.1s;
-    border-left-color: white;
-    border-top-color: transparent;
-    border-bottom-color: transparent;
+    display: none;
 }
 .about_menu_button:hover .about_menu_button_arrow_body {
     background-color: #42a741;
@@ -1526,6 +1523,7 @@ footer{
 }
 .about{
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 html{
@@ -1958,9 +1956,6 @@ html{
 }
 .left_menu {
     background: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     height: 100%;
     padding: 16px;
     width: 50%;
@@ -1971,6 +1966,8 @@ html{
     font-family: "Montserrat Bold", serif;
     font-size: 50px;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 .left_menu_phone_number{
     margin-bottom: 250px;
