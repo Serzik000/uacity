@@ -1362,8 +1362,6 @@ footer{
     font-size: 35px;
 }
 .about{
-    width: fit-content;
-    min-width: 84%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1951,12 +1949,10 @@ html{
     justify-content: center;
     align-items: center;
     z-index: 9999;
-    width: 100vw;
-    height: 100vh;
 }
 .left_menu {
     background: white;
-    height: 100%;
+    height: 101%;
     padding: 16px;
     width: 50%;
 }
