@@ -935,39 +935,41 @@ marquee{
     color: red;
 }
 .contacts {
-    max-width: 1280px;
-    margin: 40px auto;
+    max-width: 90%;
+    margin: 70px auto;
     padding: 20px;
     font-family: "Montserrat Regular";
 }
 
 .contacts_general {
     border-radius: 10px;
-    padding: 20px 0;
+    padding: 60px 0 20px 0;
     margin-bottom: 0;
 }
 .contacts_container svg{
-    width: 35px;
-    height: 35px;
-    padding: 8px;
+    width: 70px;
+    height: 70px;
+    padding: 12px;
     border: solid 2px #42a741;
-    border-radius: 14px;
-    margin-right: 15px;
+    border-radius: 25px;
+    margin-right: 25px;
 }
 .contacts_container div{
     display: flex;
-    width: 35%;
+    width: 100%;
     align-items: center;
+    margin: 15px 0;
 }
 .contacts_container{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     width: 100%;
 }
 .contacts_container div.contacts_social_networks{
-    width: 60%;
+    width: 90%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .contacts_social_networks p{
     font-size: 50px;
@@ -993,14 +995,14 @@ marquee{
     justify-content: space-between;
 }
 .contacts_general h1 {
-    font-size: 35px;
+    font-size: 60px;
     font-family: "Montserrat Semibold";
-    margin-bottom: 0;
+    margin-bottom: 50px;
 }
 
 .contacts_general a {
-    margin: 5px 0;
-    font-size: 25px;
+    margin: 10px 0 5px 0;
+    font-size: 40px;
     cursor: pointer;
     transition-duration: 0.2s;
     text-decoration: none;
@@ -1012,7 +1014,7 @@ marquee{
 
 .contacts_selector {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     justify-content: left;
     margin-bottom: 20px;
 }
@@ -1021,12 +1023,12 @@ marquee{
     background-color: #ffffff;
     color: #42a741;
     border: solid 2px #42a741;
-    padding: 10px 35px;
-    border-radius: 8px;
+    padding: 20px 60px;
+    border-radius: 15px;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    font-size: 18px;
+    font-size: 35px;
     font-family: "Montserrat Regular";
 }
 
@@ -1048,7 +1050,7 @@ marquee{
     padding: 25px 30px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     transition: opacity 0.3s ease-in-out;
-    width: max-content;
+    width: auto;
 }
 
 .contacts_office.active {
@@ -1059,11 +1061,15 @@ marquee{
     margin-top: 0;
     color: #42a741;
     font-weight: 600;
+    font-size: 50px;
+}
+.contacts_office p {
+    font-size: 30px;
 }
 
 .contacts_map {
-    width: 1150px;
-    height: 500px;
+    width: 100%;
+    height: 600px;
     margin-top: 20px;
     border: none;
     border-radius: 8px;

@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="696a8e6d-4fb5-41f7-bedd-2d8c2204b8e9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/business/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_clients/help/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/help/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_clients/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_clients/ping/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/ping/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_clients/speedtest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/speedtest/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/for_clients/vpn/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/for_clients/vpn/index.html" afterDir="false" />
@@ -153,7 +151,7 @@
       <workItem from="1762866568601" duration="532000" />
       <workItem from="1762867666028" duration="187000" />
       <workItem from="1768559592816" duration="16146000" />
-      <workItem from="1768640787914" duration="5360000" />
+      <workItem from="1768640787914" duration="6847000" />
     </task>
     <servers />
   </component>

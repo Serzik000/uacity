@@ -11,6 +11,7 @@
 <header class="sticky-header">
     <nav class="menu">
         <div class="menu_top">
+            <button class="menu_2_activate" onclick="document.querySelector('.left_menu_container').style.display='block'">≣</button>
             <a class="image_logo" href="../">
                 <img class="img_logo" src="../img/uacity_logo.svg" alt="Uacity">
             </a>
@@ -141,7 +142,8 @@
             <p><strong>Вихідний:</strong> Субота, Неділя</p>
             <p><strong>Перерва:</strong> з 13:00 до 14:00</p>
             <p><strong>тел:</strong> +380 (44) 500-98-40, +380 (44) 500-98-41</p>
-            <iframe class="contacts_map" src="https://maps.visicom.ua/iframe/uk/1200:600/?c/30.4771:50.46286:16/m0/31.89263:51.04394/n0/%D0%9E%D1%84%D1%96%D1%81%20%D0%AE%D0%B0%D1%81%D1%96%D1%82%D1%96/m1/30.4759:50.46222/n1/%D0%9E%D1%84%D1%96%D1%81%20%D0%AE%D0%B0%D1%81%D1%96%D1%82%D1%96/" scrolling="no" frameborder="0"></iframe>        </div>
+            <iframe class="contacts_map" src="https://maps.visicom.ua/iframe/uk/1200:600/?c/30.4771:50.46286:16/m0/31.89263:51.04394/n0/%D0%9E%D1%84%D1%96%D1%81%20%D0%AE%D0%B0%D1%81%D1%96%D1%82%D1%96/m1/30.4759:50.46222/n1/%D0%9E%D1%84%D1%96%D1%81%20%D0%AE%D0%B0%D1%81%D1%96%D1%82%D1%96/" scrolling="no" frameborder="0"></iframe>
+        </div>
 
         <div id="office2" class="contacts_office">
             <h2>Ніжин</h2>
@@ -236,6 +238,38 @@
     </div>
     <p class="copyright">Copyright © 2008 Uacity.</p>
 </footer>
+<div class="left_menu_container" style="display: none">
+    <div class="left_menu">
+        <a href="tel:0800600300" class="left_menu_phone_number">
+            <p>0 (800) 600 300</p>
+        </a>
+        <a href="../about">
+            <div><p>Про компанію</p></div>
+        </a>
+        <a href="../tariffs">
+            <div><p>Тарифи</p></div>
+        </a>
+        <a href="../business">
+            <div><p>Для бізнесу</p></div>
+        </a>
+        <a href="../for_clients">
+            <div><p>Клієнтам</p></div>
+        </a>
+        <a href="../contacts">
+            <div><p>Контакти</p></div>
+        </a>
+        <a href="../links">
+            <div><p>Посилання</p></div>
+        </a>
+    </div>
+</div>
+<script>
+    document.querySelector('.left_menu_container').addEventListener('click', function (e) {
+        if (e.target === this) {
+            this.style.display = 'none';
+        }
+    });
+</script>
 <script>
     const buttons = document.querySelectorAll('.contacts_button');
     const offices = document.querySelectorAll('.contacts_office');
