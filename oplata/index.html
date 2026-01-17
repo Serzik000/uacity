@@ -11,6 +11,7 @@
 <header class="sticky-header">
     <nav class="menu">
         <div class="menu_top">
+            <button class="menu_2_activate" onclick="document.querySelector('.left_menu_container').style.display='block'">≣</button>
             <a class="image_logo" href="../">
                 <img class="img_logo" src="../img/uacity_logo.svg" alt="Uacity">
             </a>
@@ -210,7 +211,38 @@
     </div>
     <p class="copyright">Copyright © 2008 Uacity.</p>
 </footer>
-
+<div class="left_menu_container" style="display: none">
+    <div class="left_menu">
+        <a href="tel:0800600300" class="left_menu_phone_number">
+            <p>0 (800) 600 300</p>
+        </a>
+        <a href="../about">
+            <div><p>Про компанію</p></div>
+        </a>
+        <a href="../tariffs">
+            <div><p>Тарифи</p></div>
+        </a>
+        <a href="../business">
+            <div><p>Для бізнесу</p></div>
+        </a>
+        <a href="../for_clients">
+            <div><p>Клієнтам</p></div>
+        </a>
+        <a href="../contacts">
+            <div><p>Контакти</p></div>
+        </a>
+        <a href="../links">
+            <div><p>Посилання</p></div>
+        </a>
+    </div>
+</div>
+<script>
+    document.querySelector('.left_menu_container').addEventListener('click', function (e) {
+        if (e.target === this) {
+            this.style.display = 'none';
+        }
+    });
+</script>
 <script>
     let lastScroll = 0;
     const header = document.querySelector('.sticky-header');
