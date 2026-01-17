@@ -625,8 +625,8 @@ a{
 .tariff_tv_img_container{
     overflow: hidden;
     position: relative;
-    height: 220px;
-    width: 300px;
+    height: 440px;
+    width: 600px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -634,13 +634,13 @@ a{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     background: rgba(0, 0, 0, 0);
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .tariff_tv_img_container h2{
-    height: 80px;
+    height: 120px;
     position: absolute;
-    font-size: 27px;
-    top: 5px;
+    font-size: 60px;
+    top: 10px;
     align-content: center;
     margin: 0;
     color: white;
@@ -772,9 +772,10 @@ a{
     margin-bottom: 0;
     width: max-content;
     position: relative;
+    font-size: 30px;
 }
 .price_tv_container h2{
-    font-size: 40px;
+    font-size: 80px;
     height: min-content;
     margin-top: 7px;
     position: relative;
@@ -794,7 +795,6 @@ a{
     font-size: 30px;
 }
 #tariffs_nizhyn{
-    display: flex;
 }
 
 .tariffs_addition{
@@ -883,14 +883,14 @@ a{
 .tariff_text_container ul{
     align-content: center;
     padding: 0;
-    font-size: 15px;
+    font-size: 28px;
     font-family: "Montserrat Semibold";
 }
 .tariff_text_container li{
     display: flex;
     justify-content: space-between;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 14px;
+    margin-bottom: 14px;
     height: min-content;
 }
 .tariff_text_container li p{
@@ -1068,7 +1068,7 @@ marquee{
     border-radius: 8px;
 }
 .tariffs_alert{
-    width: 70%;
+    width: 90%;
     background-color: #ffeae2;
     color: #ff5900;
     border-radius: 20px;
@@ -1077,7 +1077,7 @@ marquee{
     margin-left: auto;
     margin-right: auto;
     padding: 15px;
-    margin-top: 150px;
+    margin-top: 250px;
 }
 .tariffs_alert_date{
     margin-left: auto;
@@ -1085,6 +1085,10 @@ marquee{
 }
 .tariffs_alert h2{
     margin-top: 0;
+    font-size: 50px;
+}
+.tariffs_alert p, ul{
+    font-size: 26px;
 }
 .tariffs_alert button{
     border: none;
@@ -1789,28 +1793,28 @@ html{
     margin-bottom: 10px;
 }
 .documents_container{
-    width: 1150px;
+    width: 90%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: "Montserrat Semibold";
-    font-size: 18px;
+    font-size: 35px;
     padding: 0 0 0 0;
-    justify-content: space-evenly;
+    align-items: center;
     margin: auto;
 }
 .document{
     text-decoration: none;
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     color: black;
-    padding: 5px 20px;
-    width: 500px;
-    border-radius: 20px;
+    padding: 10px 40px;
+    width: 90%;
+    border-radius: 40px;
     align-items: center;
     transition-duration: 0.2s;
 }
 .document_pdf{
-    border: 2px solid #ff6666;
+    border: 3px solid #ff6666;
     color: #ff6666;
 }
 .document_pdf:hover{
@@ -1818,7 +1822,7 @@ html{
     background: #ff6666;
 }
 .document_docx{
-    border: 2px solid #6fb2ff;
+    border: 3px solid #6fb2ff;
     color:#6fb2ff ;
 }
 .document_docx:hover{
@@ -1974,4 +1978,25 @@ html{
     color: #fc8c1a;
     font-family: "Montserrat Bold", serif;
     font-size: 50px;
+}
+#img_tv_1 {
+    position: absolute;
+    width: 50%;
+    object-fit: contain;
+    right: 0;
+    top: 0;
+}
+#img_tv_2 {
+    position: absolute;
+    width: 50%;
+    object-fit: contain;
+    right: 0;
+    top: 0;
+}
+#img_tv_3 {
+    position: absolute;
+    width: 70%;
+    object-fit: contain;
+    right: 0;
+    top: 0;
 }

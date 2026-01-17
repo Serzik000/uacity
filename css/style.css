@@ -613,6 +613,7 @@ a{
     display: flex;
     flex: 0 0 1;
 
+
 }
 .tariff{
     display: flex;
@@ -821,7 +822,12 @@ a{
 }
 #tariffs_nizhyn{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
+}
+#tariffs_tv{
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -1957,4 +1963,25 @@ html{
 }
 .menu_2_activate{
     display: none;
+}
+#img_tv_1 {
+    position: absolute;
+    width: 50%;
+    object-fit: scale-down;!important;
+    right: 0;
+    bottom: -80px;
+}
+#img_tv_2 {
+    position: absolute;
+    width: 50%;
+    object-fit: scale-down;
+    right: 0;
+    bottom: -85px;
+}
+#img_tv_3 {
+    position: absolute;
+    width: 70%;
+    object-fit: scale-down;
+    right: -15px;
+    bottom: -90px;
 }
