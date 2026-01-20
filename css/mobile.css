@@ -351,11 +351,10 @@ a{
     transition-duration: 0.2s;
 
 }
-.order_form {
+.order_form{
     background: #fff;
     padding: 30px 40px;
     border-radius: 10px;
-    max-width: 700px;
     width: 90%;
     max-height: 90vh;
     overflow-y: auto;
@@ -367,15 +366,15 @@ a{
 .order_form form {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 20px;
     font-family: "Montserrat Bold";
-    font-size: 14px;
+    font-size: 25px;
 }
 
 .form_row {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 .form_row_3{
@@ -394,7 +393,7 @@ a{
     flex: 1 0 auto;
     width: 50px;
     font-family: "Montserrat Bold";
-    font-size: 13px;
+    font-size: 25px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -413,7 +412,7 @@ a{
     border-radius: 5px;
     box-sizing: border-box;
     font-family: "Montserrat Semibold";
-    font-size: 13px;
+    font-size: 25px;
 }
 .order_form select {
     background-color: #ffffff;
@@ -445,7 +444,7 @@ a{
 }
 
 .captcha_wrapper img {
-    max-height: 40px;
+    max-height: 80px;
 }
 
 .order_form button[type="submit"] {
@@ -453,10 +452,10 @@ a{
     color: white;
     padding: 10px;
     border: none;
-    border-radius: 6px;
+    border-radius: 15px;
     cursor: pointer;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 30px;
 }
 .payment{
     width: 100%;
@@ -1977,7 +1976,7 @@ html{
     background: 0;
     text-align: center;
     font-size: 90px;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.29);
 }
 .left_menu_container{
     position: fixed;
